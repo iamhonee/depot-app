@@ -8,7 +8,7 @@
 
 Product.delete_all
 #...
-for i in 0..10
+for i in 0..3
 	Product.create(:title => "Programming Ruby 1.9.#{i}",
 	  :description =>
 	    %{<p>
